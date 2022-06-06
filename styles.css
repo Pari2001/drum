@@ -1,20 +1,18 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #393E46;
+  font-family: 'Lobster', cursive;
 }
+
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
+  margin: 10px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
 }
 
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
-}
 
 .w {
   background-image: url("images/tom1.png");
@@ -88,4 +86,16 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+#back{
+  padding: 25px;
+  font-size: medium;
+  border-radius: 20%;
+  color:#4ECCA3;
+  background: #232931;
+  box-shadow: #393E46;
+  font-family: 'Lobster', cursive;
+  cursor: pointer;
+  float:left;
 }
